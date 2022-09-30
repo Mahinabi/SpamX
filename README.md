@@ -27,11 +27,11 @@
 > The easy way to host this bot, deploy to Heroku 
 <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RiZoeLX/SpamX)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mahinabi/SpamX)
 
 <h4> Local Hosting </h4>
 
-<i> First Fork The [Repo](https://github.com/RiZoeLX/SpamX) </i>
+<i> First Fork The [Repo](https://github.com/Mahinabi/SpamX) </i>
 <br>
 <i> Now Rename semple.env as .env And Fill Your Values </i>
 

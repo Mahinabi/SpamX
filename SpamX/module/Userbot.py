@@ -15,19 +15,19 @@ from pyrogram.types import Message
 from pyrogram import __version__ as pyro_vr             
                 
 
-pongg = PING_MSG if PING_MSG else "Sᴘᴀᴍ X"
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ec832fc9107fd21edfee3.jpg"
-Alivemsg = ALIVE_MSG if ALIVE_MSG else "𝗦𝗽𝗮𝗺𝗫 𝗛𝗲𝗿𝗲."
+pongg = PING_MSG if PING_MSG else "¢υтє χ "
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/f2e3760fa600ffb4fd654.jpg"
+Alivemsg = ALIVE_MSG if ALIVE_MSG else "¢υтє χ кιиg."
 
 
 rizoel = f"⁂ {Alivemsg} ⁂\n\n"
 rizoel += f"━───────╯•╰───────━\n"
-rizoel += f"➠ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.4`\n"
-rizoel += f"➠ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ** : `{pyro_vr}`\n"
-rizoel += f"➠ **SᴘᴀᴍX ᴠᴇʀsɪᴏɴ**  : `{__version__}`\n"
-rizoel += f"➠ **ᴄʜᴀɴɴᴇʟ** : [Join.](https://t.me/RiZoeLX)\n"
+rizoel += f"➠ **ρутнσи νєяѕισи** : `3.10.4`\n"
+rizoel += f"➠ **ρуяσgяαм νєяѕισи ** : `{pyro_vr}`\n"
+rizoel += f"➠ **¢υтє χ νєяѕισи**  : `{__version__}`\n"
+rizoel += f"➠ **¢нαииєℓ** : [Join.](https://t.me/Mahi_nabi)\n"
 rizoel += f"━───────╮•╭───────━\n\n"
-rizoel += f"➠ **Source Code:** [•Repo•](https://github.com/RiZoeLX/SpamX)"
+rizoel += f"➠ **Source Code:** [•Repo•](https://github.com/Mahinabi/SpamX)"
 
 
 async def get_time(seconds: int) -> str:
@@ -57,10 +57,10 @@ async def get_time(seconds: int) -> str:
 async def ping(_, e: Message):       
       start = datetime.datetime.now()
       uptime = await get_time((time.time() - start_time))
-      Fuk = await e.reply("**Pong !!**")
+      Fuk = await e.reply("**кιиg !!**")
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
-      await Fuk.edit_text(f"⌾ {pongg} ⌾ \n\n ༝ ᴘɪɴɢ: `{ms}` ᴍs \n ༝ ᴜᴘᴛɪᴍᴇ: `{uptime}` \n ༝ ᴠᴇʀsɪᴏɴ: `{__version__}`")
+      await Fuk.edit_text(f"⌾ {pongg} ⌾ \n\n ༝ ριиg: `{ms}` ᴍs \n ༝ υρтιмє: `{uptime}` \n ༝ νєяѕισи: `{__version__}`")
 
 
 
